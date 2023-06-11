@@ -1,0 +1,41 @@
+Primer clase
+VIDEO 1
+Lo vinculamos desde el head con la etiqueta scrpt scr
+tiene 2 atributos:
+Async: que es para que se ejecute asincronicamente para que no trabe todo
+defer: se ejecuta una vez que se cargo todo el contenido de la pagina
+los dos se ponen como atributo antes de src
+
+VIDEO 2
+Consola
+dentro de la inspeccion del sitio (herramientas del desarrollador) esta la consola que es para chequear errores.
+por ejemplo si yo hice una variable nombre : flor y pongo en la consola console.log(nombre) me va a decir flor pero si pongo una variable que no puse en el codigo me va a dar error
+console.warn() que es para dar una advertencia.
+
+VIDEO 3
+variables
+Espacio donde podemos almacenar info para usarla en otro momento.
+se declara con la palabra let y luego el valor:
+let platoPrincipal = 'pizza margarita';
+la mala practica usa var
+otra palabra que se usa es const se espera que sea constante y que no cambie
+const restaurant = 'Blue'
+yo puedo volver a llamar a la variable let y su valor va a cambiar pero si lo hago en const me da un error.
+cuando volvemos a llamar una veriable ya asignada no tenemkos que volver a escribir let, solamente escribimos el nombre y cambiamos el valor
+Cuando el valor es numérico no es necesario usar la comillas
+
+VIDEO 4
+Funciones nativas
+prompt es un mensaje que sale cuando abrimos la pagina que es una pregunt que se puede responder
+alert es un cuadro de texto que no nos permite escribir, solo aprece una advertencia
+confirm nos da mas opciones a elegir que el anterior
+let respuesta = prompt('como te llamas?') La respuesta es un string
+alert('debes aceptar los términos y condiciones')
+let confirmar = confirm('confirmas que aceptas los términos y condiciones') la respuesta se guarda como un booleano (true o false)
+
+VIDEO 5
+Concanetación y operaciones con variables
+La manera más comun de trabajar con variables y funciones nativas es almacenar en una variable la respuestas para despues usarla para darle al usuario una respuesta mucho mas personalizada
+
+Por ejemplo si queremos una app de un restaurant, podemos preguntar que queres comer hoy con la funcion prompt
+
